@@ -1,6 +1,6 @@
 package com.brinquedos.cleidson.brinquedos.brinquedos.model;
 
-import com.brinquedos.cleidson.brinquedos.caixas.model.Caixas;
+import com.brinquedos.cleidson.brinquedos.caixas.model.Caixa;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -23,5 +23,5 @@ public class Brinquedos {
    @ManyToOne
    @JoinColumn(name = "caixa_id")
 
-   private Caixas caixa;
+   private Caixa caixa;
 }
